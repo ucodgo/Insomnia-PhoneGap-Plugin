@@ -24,12 +24,16 @@
     "cordova-android",
     "cordova-firefoxos"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">=9"
+      },
+      "4.0.0": {
+        "cordova": ">100"
+      }
     }
-  ],
+  },
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
   "license": "MIT",
   "bugs": {
